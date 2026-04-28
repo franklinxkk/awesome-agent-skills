@@ -2,76 +2,76 @@
      2|
      3|# 🚀 Awesome Agent Skills
      4|
-     5|<p>A curated list of the most popular and practical Agent Skills projects on GitHub — covering everything from standalone skills and CLAUDE.md templates to MCP servers, agent frameworks, and more.</p>
+     5|<p>收集 GitHub 上最热门、最实用的 Agent Skills 项目，涵盖独立技能包、CLAUDE.md 模板、MCP 服务器、智能体框架等各类资源。</p>
      6|
      7|<a href="README.md"><img src="https://img.shields.io/badge/🇺🇸-English-blue?style=flat-square" alt="English"/></a>
      8|<a href="README_CN.md"><img src="https://img.shields.io/badge/🇨🇳-中文-red?style=flat-square" alt="中文"/></a>
-     9|<img src="https://img.shields.io/badge/Stars-1k+-yellow?style=flat-square&logo=github" alt="1k+"/>
-    10|<img src="https://img.shields.io/badge/Repos-215+-blue?style=flat-square" alt="215+"/>
-    11|<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?style=flat-square" alt="CC BY 4.0"/></a>
+     9|<img src="https://img.shields.io/badge/收录标准-⭐%201k+-yellow?style=flat-square&logo=github" alt="1k+"/>
+    10|<img src="https://img.shields.io/badge/项目数量-215+-blue?style=flat-square" alt="215+"/>
+    11|<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/许可证-CC%20BY%204.0-lightgrey?style=flat-square" alt="CC BY 4.0"/></a>
     12|
     13|</div>
     14|
     15|---
     16|
-    17|> **What are Agent Skills?**  
-    18|> Agent Skills is an open standard format for giving AI Agents new capabilities and domain expertise. First introduced via Claude Skills, now an open standard supported by Claude, Codex, Cursor, and others.
+    17|> **Agent Skills 是什么？**  
+    18|> Agent Skills 是一个开放标准格式，用于为 AI 智能体提供新的能力和专业知识。最初由 Claude Skills 推出，现已成为 Claude、Codex、Cursor 等多家 AI Agent 平台支持的开放标准。
     19|
-    20|## 📚 Table of Contents
+    20|## 📚 目录
     21|
-    22|- [Basics](#-basics)
-    23|- [Agent Skills — Standalone](#-agent-skills--standalone)
-    24|- [Claude Code Optimization](#-claude-code-optimization)
-    25|- [Prompts & CLAUDE.md](#-prompts--claudemd)
-    26|- [Cursor Rules](#-cursor-rules)
-    27|- [MCP & Model Context Protocol](#-mcp--model-context-protocol)
-    28|- [Agent Frameworks & Harnesses](#-agent-frameworks--harnesses)
-    29|- [Tools & Integrations](#-tools--integrations)
-    30|- [Awesome Lists & Collections](#-awesome-lists--collections)
-    31|- [License](#-license)
+    22|- [基础篇](#-基础篇)
+    23|- [独立技能包](#-独立技能包)
+    24|- [Claude Code 优化](#-claude-code-优化)
+    25|- [提示词与 CLAUDE.md](#-提示词与-claudemd)
+    26|- [Cursor 规则](#-cursor-规则)
+    27|- [MCP 与模型上下文协议](#-mcp-与模型上下文协议)
+    28|- [智能体框架与编排](#-智能体框架与编排)
+    29|- [工具与集成](#-工具与集成)
+    30|- [合集与 Awesome 列表](#-合集与-awesome-列表)
+    31|- [许可证](#-许可证)
     32|
     33|---
     34|
-    35|## 📖 Basics
+    35|## 📖 基础篇
     36|
-    37|### 🎬 Video Tutorials
+    37|### 🎬 视频教程
     38|
-    39|| Creator | Video |
-    40||---------|-------|
-    41|| [技术爬爬虾](https://space.bilibili.com/316183842c) | [Agent Skills (Claude Skills) Complete Guide](https://www.bilibili.com/video/BV1HuiyBQE9G) |
-    42|| [马克的技术工作坊](https://space.bilibili.com/1815948385) | [Agent Skill: From Usage to Principles](https://www.bilibili.com/video/BV1cGigBQE6n) |
-    43|| [白白说大模型](https://www.youtube.com/@%E7%99%BD%E7%99%BD%E8%AF%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B) | [Anthropic: Stop Building Agents, the Future is Skills!](https://www.youtube.com/watch?v=xeoWgfkxADI) |
-    44|| [回到Axton](https://space.bilibili.com/470987575) | [3-Week Deep Dive: Claude Skills is Incredibly Powerful](https://www.bilibili.com/video/BV1ueyjBgEZx) |
-    45|| [01Coder](https://www.youtube.com/@01coder30) | [OpenCode + GLM + Agent Skills: Build a Quality Dev Environment](https://www.youtube.com/watch?v=mGzY2bCoVhU) |
+    39|作者|视频地址
+    40|---|---
+    41|[技术爬爬虾](https://space.bilibili.com/316183842c)|[Agent Skills(Claude Skills)详细攻略，一期视频精通](https://www.bilibili.com/video/BV1HuiyBQE9G)
+    42|[马克的技术工作坊](https://space.bilibili.com/1815948385)|[Agent Skill 从使用到原理，一次讲清](https://www.bilibili.com/video/BV1cGigBQE6n)
+    43|[白白说大模型](https://www.youtube.com/@%E7%99%BD%E7%99%BD%E8%AF%B4%E5%A4%A7%E6%A8%A1%E5%9E%8B)|[Anthropic：别再造 Agent 了，未来是Skills的！](https://www.youtube.com/watch?v=xeoWgfkxADI)
+    44|[回到Axton](https://space.bilibili.com/470987575)|[三周深度实测：Claude Skills 真的强到离谱，它不是 Prompt 收藏夹！](https://www.bilibili.com/video/BV1ueyjBgEZx)
+    45|[01Coder](https://www.youtube.com/@01coder30)|[没有Claude Code丝毫不慌！OpenCode + 智谱GLM + Agent Skills打造高质量智能开发环境](https://www.youtube.com/watch?v=mGzY2bCoVhU)
     46|
-    47|### 📝 Articles & Tutorials
+    47|### 📝 文章教程
     48|
-    49|| Author | Article |
-    50||--------|---------|
-    51|| [王树义](https://x.com/wshuyi) | [Claude Skills Intro: How AI Goes from Chatbot to Worker](https://x.com/wshuyi/status/2009451186039214388) |
-    52|| [一泽Eze](https://x.com/eze_is_1) | [Agent Skills Ultimate Guide: Beginner to Expert](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ) |
-    53|| Claude Official | [Claude Official Agent Skills Getting Started (Chinese)](https://code.claude.com/docs/zh-CN/skills) |
-    54|| Claude Official | [Agent Skills Best Practices (Chinese)](https://platform.claude.com/docs/zh-CN/agents-and-tools/agent-skills/best-practices) |
+    49|作者|文章地址
+    50|---|---
+    51|[王树义](https://x.com/wshuyi)|[Claude Skills 入门：一篇文章搞懂 AI 怎么从「嘴替」升级成「打工人」](https://x.com/wshuyi/status/2009451186039214388)
+    52|[一泽Eze](https://x.com/eze_is_1)|[Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ)
+    53|Claude官方|[Claude官方Agent Skills入门指南（中文版）](https://code.claude.com/docs/zh-CN/skills)
+    54|Claude官方|[Agent Skills最佳实践教程（中文版）](https://platform.claude.com/docs/zh-CN/agents-and-tools/agent-skills/best-practices)
     55|
-    56|### 🌐 Sites & Marketplaces
+    56|### 🌐 站点合集
     57|
-    58|| Site | Description |
-    59||------|-------------|
-    60|| [agent-skills.md](https://agent-skills.md/) | Agent Skills marketplace for browsing, discovering, and downloading structured Agent Skills |
-    61|| [skillsmp.com](https://skillsmp.com/) | The hottest Agent Skills marketplace, aggregating 60k+ open-source skills from GitHub, updated daily |
-    62|| [agentskills.io](https://agentskills.io/home) | Official Agent Skills standard website with format specs, guides, and best practices |
-    63|| [anthropics/skills](https://github.com/anthropics/skills) | Anthropic's official open-source skills repo with production-grade examples |
-    64|| [aitmpl.com/skills](https://www.aitmpl.com/skills) | Another skills aggregation site with categorized browsing and search |
-    65|| [claudemarketplaces.com](https://claudemarketplaces.com/) | Claude-focused skills marketplace for high-quality community skills |
+    58|地址|介绍
+    59|---|---
+    60|[agent-skills.md](https://agent-skills.md/)|Agent Skills 市场网站，支持浏览、搜索和下载结构化技能包
+    61|[skillsmp.com](https://skillsmp.com/)|全网最热 Agent Skills 市场，聚合 GitHub 6万+ 开源技能，每日更新，支持智能搜索与分类浏览
+    62|[agentskills.io](https://agentskills.io/home)|Agent Skills 官方标准官网，提供格式规范、入门指南和最佳实践
+    63|[anthropics/skills](https://github.com/anthropics/skills)|Anthropic 官方开源技能仓库，包含生产级示例（文档处理、设计工具等）
+    64|[aitmpl.com/skills](https://www.aitmpl.com/skills)|技能聚合站，提供分类浏览和搜索，可作为 skillsmp 的补充
+    65|[claudemarketplaces.com](https://claudemarketplaces.com/)|Claude 专用技能市场，聚焦高质量社区技能
     66|
     67|---
     68|
-    69|## 🛠️ Agent Skills — Standalone
+    69|## 🛠️ 独立技能包
     70|
-    71|> Individual, installable agent skill repos — each provides a focused capability for Claude, Codex, Cursor, etc.
+    71|> 可直接安装的独立技能包，为 Claude、Codex、Cursor 等 AI Agent 提供专项能力。
     72|
-    73|| Repository | Stars | Description |
-    74||-----------|------:|-------------|
+    73|| 仓库 | Stars | 介绍 |
+    74||-----|------:|------|
     75|| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | 95.3k ⭐ | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
     76|| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 71.5k ⭐ | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
     77|| [mattpocock/skills](https://github.com/mattpocock/skills) | 32.8k ⭐ | Skills for Real Engineers. Straight from my .claude directory. |
@@ -121,12 +121,12 @@
    121|| [rohunvora/x-research-skill](https://github.com/rohunvora/x-research-skill) | 1.1k ⭐ | X/Twitter research skill for Claude Code and OpenClaw. Agentic search, thread following, deep-dives, sourced briefings. |
    122|| [AMAP-ML/SkillClaw](https://github.com/AMAP-ML/SkillClaw) | 1k ⭐ | Let Skills Evolve Collectively with Agentic Evolver |
    123|
-   124|## ⚡ Claude Code Optimization
+   124|## ⚡ Claude Code 优化
    125|
-   126|> CLAUDE.md configs, harness systems, and workflows that make Claude Code smarter and faster.
+   126|> CLAUDE.md 配置文件、Agent 执行框架和工作流优化，让 Claude Code 更聪明高效。
    127|
-   128|| Repository | Stars | Description |
-   129||-----------|------:|-------------|
+   128|| 仓库 | Stars | 介绍 |
+   129||-----|------:|------|
    130|| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | 168.8k ⭐ | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
    131|| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 18.1k ⭐ | Official, Anthropic-managed directory of high quality Claude Code Plugins. |
    132|| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 16.4k ⭐ | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. |
@@ -141,12 +141,12 @@
    141|| [CloudAI-X/claude-workflow-v2](https://github.com/CloudAI-X/claude-workflow-v2) | 1.3k ⭐ | Universal Claude Code workflow plugin with agents, skills, hooks, and commands |
    142|| [jarrodwatts/claude-code-config](https://github.com/jarrodwatts/claude-code-config) | 1k ⭐ | My personal Claude Code configuration - rules, hooks, agents, skills, and commands |
    143|
-   144|## 📋 Prompts & CLAUDE.md
+   144|## 📋 提示词与 CLAUDE.md
    145|
-   146|> Standalone CLAUDE.md templates, prompt engineering repos, and AI writing tools.
+   146|> CLAUDE.md 模板、提示词工程仓库和 AI 写作辅助工具。
    147|
-   148|| Repository | Stars | Description |
-   149||-----------|------:|-------------|
+   148|| 仓库 | Stars | 介绍 |
+   149||-----|------:|------|
    150|| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 48.6k ⭐ | 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman |
    151|| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 19.8k ⭐ | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. |
    152|| [blader/humanizer](https://github.com/blader/humanizer) | 16.1k ⭐ | Claude Code skill that removes signs of AI-generated writing from text |
@@ -154,20 +154,20 @@
    154|| [nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) | 6.3k ⭐ | A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention |
    155|| [instructa/ai-prompts](https://github.com/instructa/ai-prompts) | 1k ⭐ | Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot |
    156|
-   157|## 🎯 Cursor Rules
+   157|## 🎯 Cursor 规则
    158|
-   159|> `.cursorrules` files and curations for the Cursor AI editor.
+   159|> 专为 Cursor AI 编辑器设计的 `.cursorrules` 文件与精选合集。
    160|
-   161|| Repository | Stars | Description |
-   162||-----------|------:|-------------|
+   161|| 仓库 | Stars | 介绍 |
+   162||-----|------:|------|
    163|| [flyeric0212/cursor-rules](https://github.com/flyeric0212/cursor-rules) | 1.8k ⭐ | 整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。 |
    164|
-   165|## 🔌 MCP & Model Context Protocol
+   165|## 🔌 MCP 与模型上下文协议
    166|
-   167|> Servers, SDKs, clients, and frameworks built on the Model Context Protocol standard.
+   167|> 基于 Model Context Protocol 标准构建的服务器、SDK、客户端和框架。
    168|
-   169|| Repository | Stars | Description |
-   170||-----------|------:|-------------|
+   169|| 仓库 | Stars | 介绍 |
+   170||-----|------:|------|
    171|| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | 84.7k ⭐ | Model Context Protocol Servers |
    172|| [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | 22.8k ⭐ | The official Python SDK for Model Context Protocol servers and clients |
    173|| [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | 16k ⭐ | This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration. |
@@ -236,12 +236,12 @@
    236|| [nickclyde/duckduckgo-mcp-server](https://github.com/nickclyde/duckduckgo-mcp-server) | 1k ⭐ | A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing. |
    237|| [mongodb-js/mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server) | 1k ⭐ | A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters. |
    238|
-   239|## 🤖 Agent Frameworks & Harnesses
+   239|## 🤖 智能体框架与编排
    240|
-   241|> Multi-agent orchestration systems, harnesses, and agentic frameworks.
+   241|> 多智能体编排系统、Agent 执行框架和自主工作流引擎。
    242|
-   243|| Repository | Stars | Description |
-   244||-----------|------:|-------------|
+   243|| 仓库 | Stars | 介绍 |
+   244||-----|------:|------|
    245|| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 64.1k ⭐ | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. |
    246|| [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | 12k ⭐ | Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw. |
    247|| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | 7.9k ⭐ | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption |
@@ -254,12 +254,12 @@
    254|| [polyuiislab/infiAgent](https://github.com/polyuiislab/infiAgent) | 1.2k ⭐ | Build your own Cowork, AI Scientist and other SoTA Agents just by editing config files. Support anthropic skills. An infinite-horizon agent framework designed for long-running, complex tasks. |
    255|| [wrtnlabs/agentica](https://github.com/wrtnlabs/agentica) | 1k ⭐ | TypeScript AI AI Function Calling Framework enhanced by compiler skills. |
    256|
-   257|## 🔧 Tools & Integrations
+   257|## 🔧 工具与集成
    258|
-   259|> CLI tools, desktop apps, browser extensions, and platform integrations for AI agents.
+   259|> CLI 工具、桌面应用、浏览器扩展和平台集成，扩展 AI Agent 的使用场景。
    260|
-   261|| Repository | Stars | Description |
-   262||-----------|------:|-------------|
+   261|| 仓库 | Stars | 介绍 |
+   262||-----|------:|------|
    263|| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 53.7k ⭐ | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI. |
    264|| [santifer/career-ops](https://github.com/santifer/career-ops) | 40.4k ⭐ | AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. |
    265|| [safishamsi/graphify](https://github.com/safishamsi/graphify) | 36.8k ⭐ | AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph |
@@ -318,12 +318,12 @@
    318|| [OpenCoworkAI/open-cowork](https://github.com/OpenCoworkAI/open-cowork) | 1k ⭐ | Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration. |
    319|| [waybarrios/vllm-mlx](https://github.com/waybarrios/vllm-mlx) | 1k ⭐ | OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool calling, and multimodal support. Native MLX backend, 400+ tok/s. Works with Claude Code. |
    320|
-   321|## 📋 Awesome Lists & Collections
+   321|## 📋 合集与 Awesome 列表
    322|
-   323|> Curated awesome-list repos collecting skills, tools, and resources for AI agents.
+   323|> 汇集技能、工具和资源的精选 awesome 列表仓库。
    324|
-   325|| Repository | Stars | Description |
-   326||-----------|------:|-------------|
+   325|| 仓库 | Stars | 介绍 |
+   326||-----|------:|------|
    327|| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 56.8k ⭐ | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows |
    328|| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 41.6k ⭐ | A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic |
    329|| [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 35.5k ⭐ | Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections. |
@@ -339,11 +339,11 @@
    339|
    340|---
    341|
-   342|## 📄 License
+   342|## 📄 许可证
    343|
-   344|This project is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+   344|本项目采用 [知识共享署名 4.0 国际许可协议（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/deed.zh) 进行许可。
    345|
    346|[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
    347|
-   348|Contributions via issues or pull requests are welcome!
+   348|欢迎通过 issues 或 PR 参与共建！
    349|
