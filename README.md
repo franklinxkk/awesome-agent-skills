@@ -346,3 +346,6 @@ This project is licensed under [Creative Commons Attribution 4.0 International (
 [![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
 Contributions via issues or pull requests are welcome!
+
+
+- [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - AI原生软件交付框架：交互总账（12倍原型压缩）、FRR补全门禁、AC-YAML、三工作路径。含CRM/交通/教育/医疗4领域模块。
