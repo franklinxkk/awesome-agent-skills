@@ -348,4 +348,4 @@ This project is licensed under [Creative Commons Attribution 4.0 International (
 Contributions via issues or pull requests are welcome!
 
 
-- [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - AI原生软件交付框架：交互总账（12倍原型压缩）、FRR补全门禁、AC-YAML、三工作路径。含CRM/交通/教育/医疗4领域模块。\n- [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - Product-side SDD framework with Interaction Ledger, FRR Gate, AC-YAML.\n
+- [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - AI原生软件交付框架：交互总账（12倍原型压缩）、FRR补全门禁、AC-YAML、三工作路径。含CRM/交通/教育/医疗4领域模块。\n- [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - Product-side SDD framework with Interaction Ledger, FRR Gate, AC-YAML.\n\n- [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - Product-side SDD framework: Interaction Ledger, FRR Gate, AC-YAML, 3 work paths.\n
